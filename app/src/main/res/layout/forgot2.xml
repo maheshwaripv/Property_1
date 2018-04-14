@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send reset code :-"
+        android:textSize="35dp"
+        android:textColor="4c4c4c"
+        android:id="@+id/textView2"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/button6"
+        android:layout_below="@+id/radioButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
+
+    <RadioButton
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="To your linked email account : "
+        android:id="@+id/radioButton"
+        android:textSize="25dp"
+        android:layout_alignBottom="@+id/radioButton2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="87dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#484545" />
+
+    <RadioButton
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="To your linked mobile number : "
+        android:id="@+id/radioButton2"
+        android:textSize="25dp"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginTop="240dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#484545" />
+
+
+</RelativeLayout>
